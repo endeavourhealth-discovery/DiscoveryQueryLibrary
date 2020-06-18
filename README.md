@@ -23,3 +23,14 @@ https://wiki.discoverydataservice.org/index.php?title=Remote_Subscriber_Database
 ## Remote Subscriber Database (RSD) Schema (Compass database v1)
 https://wiki.discoverydataservice.org/index.php?title=Remote_Subscriber_Database_(RSD)_Schema_(Compass_1)
 
+
+
+
+
+
+
+
+
+
+
+The Discovery Data Service is powered by Learning Health Solutions Ltd. https://learning-health.co.uk/
