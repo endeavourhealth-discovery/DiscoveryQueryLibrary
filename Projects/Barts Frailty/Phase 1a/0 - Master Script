@@ -1,0 +1,65 @@
+-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+-- %% Runs all the scripts as store procs
+-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+-- --------------------------------------------------------------------
+-- STEP 1a: Modify the target database name here...
+-- --------------------------------------------------------------------
+
+	use ceg_analysis_data;
+    
+ -- --------------------------------------------------------------------
+-- STEP 1b: ... and in all of the below scripts/codes (where it will appear once at the top):
+-- --------------------------------------------------------------------   
+
+    -- 1a - Eligible GP Cohort
+    -- 1b - Barts Encounter Cohort
+    -- 2 - Get All Observatrions
+    -- 3 - Attach Frailty Observations
+    -- 4 - Generate Output Files
+    -- A_temp_file_clean_up
+    -- B_output_file_clean_up
+    -- F50_add_obs_column_batched
+    -- F50_get_all_obs_on_cohort
+    -- F50_join_to_observation
+
+-- --------------------------------------------------------------------
+-- STEP 2: Initialise all the store procs
+-- --------------------------------------------------------------------
+    
+    -- BF1a_Eligible_GP_Cohort
+    -- BF1b_Barts_Encounter_Cohort
+    -- BF2_Get_All_Observations
+    -- BF3_Attach_Frailty_Observations
+    -- BF4_Generate_Output_Files
+    -- BFA_temp_file_clean_up
+    -- BFB_output_file_clean_up
+    -- F50_add_obs_column_batched
+    -- F50_get_all_obs_on_cohort
+    -- F50_join_to_observation
+
+-- --------------------------------------------------------------------
+-- STEP 3: run the below which call the store procs
+-- --------------------------------------------------------------------
+
+    call BF1a_Eligible_GP_Cohort();			-- FILENAME: 1a - Eligible GP Cohort
+    call BF1b_Barts_Encounter_Cohort();			-- FILENAME: 1b - Barts Encounter Cohort
+    call BF2_Get_All_Observations();			-- FILENAME: 2 - Get All Observations
+    call BF3_Attach_Frailty_Observations();		-- FILENAME: 3 - Attach Fraily Obsrvations
+    call BF4_Generate_Output_Files();			-- FILENAME: 4 - Generate Output Files
+
+-- --------------------------------------------------------------------
+-- STEP 4: clean up table space, leaving only relevant files
+-- --------------------------------------------------------------------
+-- This will remove any temporary files leaving only 3 output files and 3 testing files:
+-- One for each of the three hospitals Whipps Cross, Royal London and Neham (and their 3 test counterparts
+-- which contain additional date fields for ease of testing)
+
+	-- call BFA_temp_file_clean_up();				-- FILENAME: A_temp_file_clean_up
+  
+-- --------------------------------------------------------------------
+-- STEP 6: clean up table space entirely
+-- --------------------------------------------------------------------
+-- this will remove the 3 output files described above as part of step 5 (so commented out)
+    
+	-- call BFB_temp_file_clean_up();				-- FILENAME: B_output_file_clean_up

@@ -1,0 +1,130 @@
+-- 59 ELGH Coeliac disease
+-- 60 ELGH Vitiligo
+-- 61	ELGH RTR
+-- 62	ELGH RT
+-- 63	ELGH Dialysis
+-- 64 ELGh Stroke (ischaemic)
+-- 65 ELGh Stroke (haemorrhagic)
+-- 66	ELGH TIA
+-- 67 ELGH Angina
+-- 68 ELGH Myocardial Infarction
+-- 69 ELGH Ethnicity
+-- 70 ELGH Country of Birth
+-- 71	ELGH Family History of diabetes
+-- 72	ELGH Family History of ICD
+-- 73	ELGH Type 1 Diabetes
+-- 74	ELGH Type 2 diabetes
+-- 75	ELGH secondary diabetes
+-- 76	ELGH other diabetes
+-- 77	ELGH pancreatic disease
+-- 78	ELGH Diabeties in pregnancy
+-- 79	ELGH Diabetes emergencies
+-- 80	ELGH Bariatric surgery
+-- 81	ELGH diabetes risk 1
+-- 82	ELGH diabetes risk 2
+-- 83	ELGH diabetes risk 3
+-- 84	ELGH diabetes risk 4
+-- 85	ELGH cvd risk
+-- 86	ELGH Retinopathy Screen
+-- 87	ELGH Retinopathy Left
+-- 88	ELGH No Retinopathy Left
+-- 89	ELGH Retinopathy Right
+-- 90	ELGH No Retinopathy Right
+-- 91	ELGH ED
+-- 92	ELGH PVD
+-- 93	ELGH PAD
+-- 94	ELGH AAA
+-- 95	ELGH Foot Ulcer Left
+-- 96	ELGH Foot Ulcer Right
+-- 97	ELGH Neuropathy
+-- 98	ELGH IHD
+-- 99	ELGH AF Flutter
+-- 100	ELGH HD
+-- 101	ELGH Stroke
+-- 102	ELGH Hypertension
+-- 103	ELGH CKD
+-- 104	ELGH PCS
+-- 105	ELGH Obesity Disorder
+-- 106	ELGH NAFLD
+-- 107	ELGH Hypercholesterol
+-- 108	ELGH Acanthosis
+-- 109	ELGH Thyroid
+-- 110	ELGH Autoimmune
+-- 111	ELGH Frailtyindex
+-- 112	ELGH NHS HC
+-- 113	ELGH Asthma
+-- 114	ELGH COPD
+-- 115	ELGH IPF
+-- 116	ELGH AMD
+-- 117	ELGH Glaucoma
+-- 118	ELGH RA
+-- 119	ELGH Lupus
+-- 120	ELGH Crohns
+-- 121	ELGH UC
+-- 122	ELGH Eczema
+-- 123	ELGH PCD
+-- 124	ELGH MND
+-- 125	ELGH MS
+-- 126	ELGH Parkinsons
+-- 127	ELGH Atypical PD
+-- 128	ELGH VasDem
+-- 129	ELGH Alzheimers
+-- 130	ELGH DementiaQOF
+-- 131	ELGH Cognitive
+-- 132	ELGH Memory
+-- 133	ELGH Brain tumour
+-- 134	ELGH Brain damage
+-- 135	ELGH Epilepsy
+-- 136	ELGH Schizophrenic
+-- 137	ELGH Bipolar
+-- 138	ELGH Depression
+-- 139	ELGH Anxiety
+-- 140	ELGH PTSD
+-- 141	ELGH OCD
+-- 142	ELGH Panic
+-- 143	ELGH Social anxiety
+-- 144	ELGH Phobias
+-- 145	ELGH SAD
+-- 146	ELGH Conversion
+-- 147	ELGH Adjustment
+-- 148	ELGH Somatoform
+-- 149	ELGH Eating disorder
+-- 150	ELGH Dependence and abuse
+-- 151	ELGH ADHD
+-- 152	ELGH Personality
+-- 153	ELGH Habit
+-- 154	ELGH LD
+-- 155	ELGH Autism
+-- 156	ELGH Speech and language
+-- 157	ELGH Conduct
+-- 158	ELGH Tourettes
+-- 159	ELGH Gender
+-- 160	ELGH Smoker
+-- 161	ELGH ExSmoker
+-- 162	ELGH NeverSmoked
+-- 163	ELGH Weight
+-- 164	ELGH Height
+-- 165	ELGH BMI
+-- 166	ELGH HbA1c
+-- 167	ELGH Cholesterol
+-- 168	ELGH HDL
+-- 169	ELGH LDL
+-- 170	ELGH Triglycerides
+-- 171	ELGH Protein Creatinine
+-- 172	ELGH Albumin Creatinine
+-- 173	ELGH Albumin
+-- 174	ELGH Sys BP
+-- 175	ELGH Dia BP
+-- 176	ELGH Creatinine
+-- 177	ELGH EGFR
+-- 178	ELGH GAD
+-- 179	ELGH Islet cell
+-- 180	ELGH IA2
+-- 181	ELGH Coeliac autoantibody
+-- 182	ELGH Peroxidase
+-- 183	ELGH Cpeptide
+-- 184	ELGH Serum insulin
+-- 185	ELGH Serum ALT
+-- 186	ELGH AST serum
+-- 187	ELGH TSH, T4
+-- 189	ELGH Type 1 & T2 Diabetes

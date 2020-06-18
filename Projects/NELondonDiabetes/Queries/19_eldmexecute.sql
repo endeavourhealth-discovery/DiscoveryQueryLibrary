@@ -1,0 +1,14 @@
+USE data_extracts;
+
+DROP PROCEDURE IF EXISTS eldmexecute;
+
+DELIMITER //
+CREATE PROCEDURE eldmexecute()
+BEGIN
+SET SQL_SAFE_UPDATES=0;
+SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
+call ELbuildCohortForDiabetes();
+call ELbuildDatasetForDiabetes();
+SET SQL_SAFE_UPDATES=1;
+END//
+DELIMITER ;

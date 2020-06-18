@@ -1,0 +1,149 @@
+FHDiabetesCode varchar(30) null,
+FHDiabetesDate varchar(30) null,
+FHIHDCode varchar(30) null,
+FHIHDDate varchar(30) null,
+T1DiabetesCode varchar(30) null,
+T1DiabetesDate varchar(30) null,
+T2DiabetesCode varchar(30) null,
+T2DiabetesDate varchar(30) null,
+SecondaryCode varchar(30) null,
+SecondaryDate varchar(30) null,
+OtherCode varchar(30) null,
+OtherDate varchar(30) null,
+PancreaticCode varchar(30) null,
+PancreaticDate varchar(30) null,
+PregnancyCode varchar(30) null,
+PregnancyDate varchar(30) null,
+EmergenciesCode varchar(30) null,
+EmergenciesDate varchar(30) null,
+BariatricCode varchar(30) null,
+BariatricDate varchar(30) null,
+
+PrediabetesEarliestCode varchar(30) null,
+PrediabetesEarliestDate varchar(30) null,
+PrediabetesLatestCode varchar(30) null,
+PrediabetesLatestDate varchar(30) null,
+
+AtRiskEarliestCode varchar(30) null,
+AtRiskEarliestDate varchar(30) null,
+AtRiskLatestCode varchar(30) null,
+AtRiskLatestDate varchar(30) null,
+
+HbA1cEarliestCode varchar(30) null,
+HbA1cEarliestDate varchar(30) null,
+HbA1cEarliestValue varchar(30) null,
+HbA1cEarliestUnit varchar(30) null,
+
+HbA1cLatestCode varchar(30) null,
+HbA1cLatestDate varchar(30) null,
+HbA1cLatestValue varchar(30) null,
+HbA1cLatestUnit varchar(30) null,
+
+QDiabetesEarliestCode varchar(30) null,
+QDiabetesEarliestDate varchar(30) null,
+QDiabetesEarliestValue varchar(30) null,
+QDiabetesEarliestUnit varchar(30) null,
+
+QDiabetesLatestCode varchar(30) null,
+QDiabetesLatestDate varchar(30) null,
+QDiabetesLatestValue varchar(30) null,
+QDiabetesLatestUnit varchar(30) null,
+
+QRiskEarliestCode varchar(30) null,
+QRiskEarliestDate varchar(30) null,
+QRiskEarliestValue varchar(30) null,
+QRiskEarliestUnit varchar(30) null,
+
+QRiskLatestCode varchar(30) null,
+QRiskLatestDate varchar(30) null,
+QRiskLatestValue varchar(30) null,
+QRiskLatestUnit varchar(30) null,
+
+RetinopathyScreenCode varchar(30) null,
+RetinopathyScreenDate varchar(30) null,
+
+RetinopathyLeftEarliestCode varchar(30) null,
+RetinopathyLeftEarliestDate varchar(30) null,
+RetinopathyLeftLatestCode varchar(30) null,
+RetinopathyLeftLatestDate varchar(30) null,
+
+NoRetinopathyLeftEarliestCode varchar(30) null,
+NoRetinopathyLeftEarliestDate varchar(30) null,
+NoRetinopathyLeftLatestCode varchar(30) null,
+NoRetinopathyLeftLatestDate varchar(30) null,
+
+RetinopathyRightEarliestCode varchar(30) null,
+RetinopathyRightEarliestDate varchar(30) null,
+RetinopathyRightLatestCode varchar(30) null,
+RetinopathyRightLatestDate varchar(30) null,
+
+NoRetinopathyRightEarliestCode varchar(30) null,
+NoRetinopathyRightEarliestDate varchar(30) null,
+NoRetinopathyRightLatestCode varchar(30) null,
+NoRetinopathyRightLatestDate varchar(30) null,
+
+EDCode varchar(30) null,
+EDDate varchar(30) null,
+
+PVDCode varchar(30) null,
+PVDDate varchar(30) null,
+
+PADCode varchar(30) null,
+PADDate varchar(30) null,
+
+AAACode varchar(30) null,
+AAADate varchar(30) null,
+
+FootUlcerLeftCode varchar(30) null,
+FootUlcerLeftDate varchar(30) null,
+
+FootUlcerRightCode varchar(30) null,
+FootUlcerRightDate varchar(30) null,
+
+NeuropathyCode varchar(30) null,
+NeuropathyDate varchar(30) null,
+
+IHDCode varchar(30) null,
+IHDDate varchar(30) null,
+
+AFFlutterCode varchar(30) null,
+AFFlutterDate varchar(30) null,
+
+HDCode varchar(30) null,
+HDDate varchar(30) null,
+
+StrokeCode varchar(30) null,
+StrokeDate varchar(30) null,
+
+HypertensionCode varchar(30) null,
+HypertensionDate varchar(30) null,
+
+CKDCode varchar(30) null,
+CKDDate varchar(30) null,
+
+PCSCode varchar(30) null,
+PCSDate varchar(30) null,
+
+ObesityDisorderCode varchar(30) null,
+ObesityDisorderDate varchar(30) null,
+
+NAFLDCode varchar(30) null,
+NAFLDDate varchar(30) null,
+
+HypercholesterolCode varchar(30) null,
+HypercholesterolDate varchar(30) null,
+
+AcanthosisCode varchar(30) null,
+AcanthosisDate varchar(30) null,
+
+ThyroidCode varchar(30) null,
+ThyroidDate varchar(30) null,
+
+AutoimmuneCode varchar(30) null,
+AutoimmuneDate varchar(30) null,
+
+FrailtyindexCode varchar(30) null,
+FrailtyindexDate varchar(30) null,
+
+NHSHCCode varchar(30) null,
+NHSHCDate varchar(30) null,

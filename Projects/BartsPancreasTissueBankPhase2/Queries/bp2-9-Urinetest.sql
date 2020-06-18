@@ -1,0 +1,21 @@
+USE data_extracts;
+
+DROP PROCEDURE IF EXISTS executeBartsPancreas9UrineBP2;
+
+DELIMITER //
+CREATE PROCEDURE executeBartsPancreas9UrineBP2()
+BEGIN
+
+-- All since 2002
+
+CALL populateDatasetBP2(
+  'bp2_urinetestdataset',
+  '463%,466%,467%,468%,469%,46A%,46X%,46f%,46M1.-46MA.,46ML.,46MR.,46R1.,46R2.,46R5.,46T%,46g%,CTV3_Xa976%,CTV3_X76xp%,CTV3_X76xl%,CTV3_X76xq%,CTV3_X76xm%,CTV3_X8074%,CTV3_X76xr%,CTV3_XaIf2%,CTV3_XE2qJ%,CTV3_46R1.,CTV3_46R2.,CTV3_X76xn,CTV3_46T%,CTV3_XaaDV%,CTV3_X76xo%',
+  4,
+  '2002-01-01',   
+  '4661.,467A.,467B.,467C.,467D.,467E.,467F.,467G.,467H.,4681.,4691.,46A1.,46f1.,4D3%,CTV3_4D3%',
+  0
+);
+
+END//
+DELIMITER ;

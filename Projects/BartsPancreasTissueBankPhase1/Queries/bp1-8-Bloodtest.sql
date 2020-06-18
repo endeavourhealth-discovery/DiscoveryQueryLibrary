@@ -1,0 +1,33 @@
+USE data_extracts;
+
+DROP PROCEDURE IF EXISTS executeBartsPancreas8BloodTestBP1;
+
+DELIMITER //
+CREATE PROCEDURE executeBartsPancreas8BloodTestBP1()
+BEGIN
+
+-- All since 2012
+
+CALL populateDatasetBP1(
+  'bp1_bloodtestdataset',
+  '423%,42H%,42P1.,42P2.,42P3.,42P4.,42PZ.,42QE%,44M4.%,44MI.,44I5%,44h1.,44h6.,44I4%,44h0.,44h8.,44J1.,44J2.,44J8.,44J9.,44JA.,44JB.,44J3%,44JC.,44JD.,44JF.,451K.,451M.,451N.,44E1.,44E2.,44E3.,44E6.,44E9.,44EC.,44EZ.,44G3%,44H5%,44HB.,44HC.,44CU.,44F1.,44F2.,44F3.,44FZ.,44G4%,44G7.,44G8.,44G9.,44CC%,44a0%,44a1.,44a2%,44a3%,44a6%,44a4.,44a5.,44M1.,44M2.,44M3%,44M6.,44M7.,44M8.,44M9.,44MA.,42W4.,43W5.,44TB0,44TB1,44P%,44lF.,44lH.,44l2.,44lJ.,',
+  4,
+  '2012-01-01',
+  '4231.,4232.,4233.,423C.,42H4.,42H6.,',
+  0
+);
+
+-- added 
+-- HbA1c	42W4.
+--	43W5.
+--	44TB0
+--	44TB1
+-- Cholesterol	44P%
+--	44lF.
+--	44lH.
+--	44l2.
+--	44lJ.
+
+
+END//
+DELIMITER ;

@@ -1,0 +1,24 @@
+F82010 - hav
+F82027 - bar
+F82663 - hav
+F82031 - hav
+F82033 - hav
+
+F86007 - red
+
+F82017 - bar
+F82003 - bar
+F82038 - bar
+F82678 - bar
+Y01280 - bar
+F82015 - bar
+
+
+update dataset_eye set CCG = 'NHS BARKING AND DAGENHAM CCG'
+where PracticeCode in ('F82027', 'F82015', 'F82017', 'F82003', 'F82038', 'F82678', 'Y01280');
+
+update dataset_eye set CCG = 'NHS Havering CCG'
+where PracticeCode in ('F82010', 'F82663', 'F82031', 'F82033');
+
+update dataset_eye set CCG = 'NHS Redbridge CCG'
+where PracticeCode in ('F86007');
