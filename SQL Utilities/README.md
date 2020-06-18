@@ -1,2 +1,2 @@
-# Discovery Query Library - Shared Data Sets
-A public repository to store and share useful project data sets related to the Discovery Data Service reporting service.
+# Discovery Query Library - SQL Utilities
+A public repository to store and share useful SQL utilities related to the Discovery Data Service reporting service.
