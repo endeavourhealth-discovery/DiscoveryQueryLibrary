@@ -1,6 +1,6 @@
 # Discovery Query Library
 A public repository to store and share useful SQL scripts, value/code sets, project data sets or anything else 
-related to building reporting services with the Discovery project.
+related to building reporting services with the Discovery Data Service project.
 
 The idea behind this is that everyone contributes to this making it a useful resource to be able to get up and 
 running quickly.  
