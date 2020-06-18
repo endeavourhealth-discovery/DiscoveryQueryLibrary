@@ -1,2 +1,2 @@
-# DiscoveryQueryLibrary
-A public repository to store and share useful SQL scripts, value sets or anything else related to the Discovery project
+# Discovery Query Library - Shared Data Sets
+A public repository to store and share useful project data sets related to the Discovery Data Service reporting service.
