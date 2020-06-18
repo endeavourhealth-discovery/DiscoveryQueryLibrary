@@ -20,5 +20,6 @@ https://wiki.discoverydataservice.org/index.php?title=Current_data_sets
 ## Remote Subscriber Database (RSD) SQL guide (Compass database v1)
 https://wiki.discoverydataservice.org/index.php?title=Remote_Subscriber_Database_(RSD)_SQL_guide_(Compass_1)
 
-## Remote Subscriber Database (RSD) Schema (Compass database v1)https://wiki.discoverydataservice.org/index.php?title=Remote_Subscriber_Database_(RSD)_Schema_(Compass_1)
+## Remote Subscriber Database (RSD) Schema (Compass database v1)
+https://wiki.discoverydataservice.org/index.php?title=Remote_Subscriber_Database_(RSD)_Schema_(Compass_1)
 
