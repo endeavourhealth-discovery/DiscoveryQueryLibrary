@@ -6,7 +6,6 @@ A SQL script to obtain all currently registered patients in a Compass 2 database
 select o2.name as CCG,
 o.name as practice, count(distinct p.id)
 from patient p
-join concept ce on ce.dbid = p.ethnic_code_concept_id
 join organization o on o.id = p.organization_id
 join organization o2 on o2.id = o.parent_organization_id
 join episode_of_care e on e.patient_id = p.id
